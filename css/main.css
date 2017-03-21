@@ -105,15 +105,19 @@ a:after {
 /*---------------------------------------------------
   SECTION WRAPS
 ---------------------------------------------------*/
-
+@keyframes animatedBackground {
+  0% { background-position: 0 0; }
+  100% {background-position: 0 -100%;}
+}
 /* Header Wrap */
 .header {
   background: #1CBCAD;
-  background: url(../images/header-bg.jpg) no-repeat center top;
+  background-image: url(../images/IMGP9655.jpg);
+  background-repeat: repeat-y;
+  animation: animatedBackground 15s linear alternate infinite;
   padding-top:140px;
   text-align:center;
   background-attachment: relative;
-  background-position: center center;
   min-height: 500px;
   width: 100%;
   
