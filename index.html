@@ -31,16 +31,14 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
-    <script type="text/javascript">
-        function toggleVis(){
-            var currentdiv = document.getElementById("currentdiv");
-            if (currentdiv.style.visibility=="hidden") {
-                currentdiv.style.visibility="visible";
-            }
-            else {
-                currentdiv.style.visibility="hidden"
-            }
-        }
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> 
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("w1").toggle();
+            });
+        });
     </script>
   </head>
 
@@ -135,15 +133,13 @@
     <!--COURSES SECTION-->
     <div class="container desc">
         <div class="row" id="currentdiv">
-
                 <div class="col-lg-2 col-lg-offset-1">
                     <h5>COURSES</h5>
-                    <form>
-                        <input type="button" value="toggle" onclick="toggleVis">
-                    </form>
                 </div>
+
+                <button>Western University 2016 - 2017</button>
                 <!-- EDIT: education line 1 -->
-                <div class="col-lg-6">
+                <div id="w1" class="col-lg-6">
                     <p><t>Biochemistry and Molecular Biology</t><br/>
                         BIOCHEM 2280
                         <br/><i>An introduction to biochemistry with emphasis on protein structure and function, intermediary metabolism and nucleic acid structure and function.</i>
