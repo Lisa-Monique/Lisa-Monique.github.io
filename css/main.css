@@ -31,7 +31,7 @@ button span {
 }
 
 button span:after {
-  content: '/00bb';
+  content: '\u21E9';
   position: absolute;
   opacity: 0;
   top: 0;
