@@ -107,13 +107,12 @@ a:after {
 ---------------------------------------------------*/
 @keyframes animatedBackground {
   0% { background-position: 0 0; }
-  100% {background-position: 0 0;}
+  100% {background-position: 0 100%;}
 }
 /* Header Wrap */
 .header {
   background: #1CBCAD;
   background-image: url(../images/IMGP9654.jpg);
-  background-repeat: repeat-y;
   animation: animatedBackground 15s linear alternate infinite;
   padding-top:140px;
   text-align:center;
