@@ -35,6 +35,11 @@
             });
         });
         $(document).ready(function(){
+            $("#western1617close").click(function(){
+                $("#western1617").toggle();
+            });
+        });
+        $(document).ready(function(){
             $("#salcc1415button").click(function(){
                 $("#salcc1415").toggle();
             });
@@ -250,7 +255,7 @@
                     <div class="col-lg-3">
                         <p><sm>92%</sm></p>
                     </div>
-
+                    <i class="fa fa-arrow-circle-o-up" id="western1617close">Close Section</i>
                 </div>
 
                 <div class="col-lg-9 col-lg-offset-3">
@@ -576,7 +581,7 @@
     <div class="container desc">
         <div class="row">
                 <div class="col-lg-2 col-lg-offset-1">
-                    <h4>HONOURS AND AWARDS</h4>
+                    <h4>HONOURS & AWARDS</h4>
                 </div>
 
                 <!-- EDIT: awards line 1-->
@@ -584,13 +589,14 @@
                     <p><t>Dean's Honor List</t><br/>
                         Faculty of Science, Western University<br/>
                     </p>
+                    <p><more>Awarded for attaining A average</more></p>
                 </div>
                 <div class="col-lg-3">
                     <p><sm>MAY 2017</sm></p>
                 </div>
 
                 <div class="col-lg-6">
-                    <p><t>International President's Scholarship</t><br/>
+                    <p><t>International President's Entrance Scholarship</t><br/>
                         Western University National Scholarship Program<br/>
                     </p>
                 </div>
