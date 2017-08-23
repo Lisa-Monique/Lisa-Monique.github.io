@@ -24,6 +24,16 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $("#western1718button").click(function(){
+        $("#western1718").toggle();
+    });
+});
+$(document).ready(function(){
+    $("#western1718close").click(function(){
+        $("#western1718").toggle();
+    });
+});
+$(document).ready(function(){
     $("#western1617button").click(function(){
         $("#western1617").toggle();
     });
