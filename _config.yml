@@ -1,0 +1,18 @@
+baseurl: /
+exclude: ['README.md']
+title: Lisa-Monique Edward
+author: Lisa-Monique Edward
+email: ledwar29@uwo.ca
+description: >-
+  Resume/Portfolio for Lisa-Monique Edward
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  https://github.com/Lisa-Monique
+linkedin_username: https://www.linkedin.com/in/lisa-monique-edward-a3054410b/
+external: https://www.lifeaslisamonique.me
+include: ["_pages", "_data"]
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+

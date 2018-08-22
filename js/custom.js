@@ -22,7 +22,16 @@ $(document).ready(function(){
     } // End if
   });
 });
-
+$(document).ready(function(){
+    $("#western1819button").click(function(){
+        $("#western1819").toggle();
+    });
+});
+$(document).ready(function(){
+    $("#western1819close").click(function(){
+        $("#western1819").toggle();
+    });
+});
 $(document).ready(function(){
     $("#western1718button").click(function(){
         $("#western1718").toggle();
@@ -64,12 +73,12 @@ $(document).ready(function(){
     });
 });
 $(document).ready(function(){
-    $("#sjcbutton").click(function(){
+    $("#sjc08button").click(function(){
         $("#sjc08").toggle();
     });
 });
 $(document).ready(function(){
-    $("#sjcclose").click(function(){
+    $("#sjc08close").click(function(){
         $("#sjc08").toggle();
     });
 });
