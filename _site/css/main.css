@@ -346,12 +346,12 @@ hr {
     background-attachment: fixed;
     background-position: center 30%;
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
 
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    -webkit-background-size: 100vw;
+    -moz-background-size: 100vw;
+    -o-background-size: 100vw;
+    background-size: 100vw;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
