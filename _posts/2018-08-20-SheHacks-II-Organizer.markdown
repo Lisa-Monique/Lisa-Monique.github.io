@@ -24,6 +24,8 @@ date:   2018-08-20 21:17:08 -0400
     </ul>
     <div style="padding-left: 20px;">
         <h4>Recap video</h4>
-        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwits.uwo%2Fvideos%2F771084993088045%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+        <div class="resp-container">
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwits.uwo%2Fvideos%2F771084993088045%2F&show_text=0&width=560" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" class="resp-iframe"></iframe>
+        </div>
     </div>
 </div>

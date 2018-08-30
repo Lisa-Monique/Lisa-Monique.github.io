@@ -105,7 +105,7 @@
         <p>I also produced a variety of MailChimp newsletters including monthly updates, news on upcoming events, and recruitment initiatives. In this role, I was able to grow the mailing list of the society by 35% and increased the click rate of newsletters by 7%.</p>
       date: 
 
-- employer: SheHacks
+- employer: SheHacks II
   location: Western University, London, ON
   date: Mar 2018
   logo: Logo-1.png
@@ -113,7 +113,7 @@
     - title: Organizer
       desc: |
         <p>SheHacks is Western University's only all-women's hackathon. Hosted by the Women in Tech Society, this event was created to encourage women from all backgrounds and skill sets to attend a hackathon in a fun, safe, and inclusive environment!</p>
-        <p>As the Communications Director for the Women in Tech Society, my responsibilities for SheHacks included: </p>
+        <p>As the Communications Director for the Women in Tech Society, my responsibilities for SheHacks II included: </p>
         <ul>
           <li>Producing informational MailChimp newsletters related to SheHacks</li>
          <li>Managing social media and the website</li>  
@@ -121,7 +121,9 @@
         </ul>
         <div style="padding-left: 20px;">
           <h4>Recap video</h4>
-          <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwits.uwo%2Fvideos%2F771084993088045%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+          <div class="resp-container">
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwits.uwo%2Fvideos%2F771084993088045%2F&show_text=0&width=560" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" class="resp-iframe"></iframe>
+          </div>
         </div>
       date: 
 

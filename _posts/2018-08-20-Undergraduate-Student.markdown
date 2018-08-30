@@ -7,7 +7,7 @@ date:   2018-08-20 21:17:11 -0400
 categories: jekyll update
 ---
 <div class="desc info">
-    <p>I'm currently an undergraduate student pursuing a Bachelor of Medical Sciences with an Honours Specialisation in Computational Biochemistry. Current average: A</p>
+    <p>I'm currently an undergraduate student pursuing a Bachelor of Medical Sciences with an Honours Specialisation in Computational Biochemistry. Current average: 86%</p>
     <h3>Accomplishments</h3>
     <ul style="margin-left: 20px;">
         <li>Placed on 2016/2017 and 2017/2018 Dean's Honor Lists for attaining A average</li>

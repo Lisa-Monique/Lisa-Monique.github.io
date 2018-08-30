@@ -18,11 +18,11 @@ institutions:
           </ul>
           <h3>Activities & Societies</h3>
           <ul style="margin-left: 20px;">
-              <li>Scientific Research Society</li>
-              <li>Western Women in Leadership Club</li>
+              <li>Women in Technology Society</li>
               <li>Caribbean Students' Organization</li>
-              <li>Biology Undergraduate Society and Computer Science Undergraduate Society</li>
-              <li>Amnesty International</li>
+              <li>Scientific Research Society</li>
+              <li>Western Crafting for a Cure</li>
+              <li>Amnesty International Western</li>
               <li>Mustang Bioinformatics Club</li>
           </ul>
         date: |
@@ -67,10 +67,10 @@ institutions:
                 desc: >
                   This course is intended as a practical means of enhancing English vocabulary through a systematic study of the contribution of the Classical languages to modern English, including the vocabulary of the sciences.
                 grade: ip
-              - title: Special Topics in Popular Literature
+              - title: "Special Topics in Popular Literature: The Many Faces of Harry Potter"
                 code: ENGLISH2092
                 desc: >
-                  Upper and lower time and space bounds; levels of intractability; graph algorithms; greedy algorithms; dynamic algorithms; exhaustive search techniques; parallel algorithms.
+                  The wildly successful Harry Potter series has been noted for its capacity to cross traditional boundaries. Conventional wisdom claims that young girls won’t read a book with a male protagonist and young boys won’t read a book by a female author, yet Harry Potter has found an enthusiastic readership among children of both sexes. Age boundaries have proven to be equally elastic; the popularity of the series among adults has even prompted the creation of an adult-friendly edition of the series with dark cover art suitable for reading on public transportation. The flexibility of the series may relate to its roots in a wide variety of genres including the gothic novel, detective fiction, fantasy, adventure, and even the dystopian novel. This course will examine the Harry Potter series in relation to all these genres. We will read all seven books alongside other novels and short stories that illustrate the generic conventions Rowling is using.
                 grade: ip
               - title: Bioinformatics of Infectious Disease
                 code: MICROIMM4750
