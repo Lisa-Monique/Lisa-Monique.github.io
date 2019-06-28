@@ -1,54 +1,49 @@
 ---
 layout: post
-title:  "Undergraduate Student"
+title:  "Bachelor of Medical Sciences"
 subtitle: "Western University | 2016 - 2019"
-img: "DSC_0236.jpg"
+img: "IMGP3668_edit.jpg"
 date:   2018-08-20 21:17:11 -0400
-categories: jekyll update
+categories: highlight
 ---
-<div class="desc info">
-    <p>I'm currently an undergraduate student pursuing a Bachelor of Medical Sciences with an Honours Specialisation in Computational Biochemistry. Current average: 86%</p>
-    <h3>Accomplishments</h3>
-    <ul style="margin-left: 20px;">
-        <li>Placed on 2016/2017 and 2017/2018 Dean's Honor Lists for attaining A average</li>
-        <li>Awarded International President's Entrance Scholarship as part of the University's National Scholarship Program after a rigorous application and interview process. 1 of 3 students. Value: $50,000 CAD</li>
-        <li>Selected as 1 of 50 incoming students to be part of the prestigious Scholar's Electives program: a research-intensive interdisciplinary-learning program which runs concurrently with academics</li>
-    </ul>
-    <h3>Activities & Societies</h3>
-    <ul style="margin-left: 20px;">
-        <li>Women in Technology Society</li>
-        <li>Scientific Research Society</li>
-        <li>Western Women in Leadership Club</li>
-        <li>Caribbean Students' Organization</li>
-        <li>Biology Undergraduate Society</li>
-        <li>Computer Science Undergraduate Society</li>
-        <li>Amnesty International</li>
-    </ul>
-    <h3>Noteworthy Courses</h3>
-    <div class="row" style="text-align: center;">
-        <div class="col-sm-3 col-xs-6">
-            <div class="four-piece" style="background-image: url(../images/computer-science.jpg);">
-                91%
-            </div>
-            <p>Data Structures & Algorithms</p>
+<p class="more">I recently graduated from Western University achieving a Bachelor of Medical Sciences with an Honours Specialisation in Computational Biochemistry. Cumulative average: A</p>
+<h3>Accomplishments</h3>
+<ul style="margin-left: 20px;">
+    <li>Presented with the Rossiter Award for Research Excellence for achieving the highest average in the Biochemistry Research Project & Seminar course.</li>
+    <li>Completed four-year program in three years.</li>
+    <li>Graduated with distinction for achieving overall A average with no grade below 70% in entire program.</li>
+</ul>
+<h3>Activities & Societies</h3>
+<ul style="margin-left: 20px;">
+    <li>Scholars Publications House</li>
+    <li>Women in Technology Society</li>
+    <li>Western Crafting for a Cure</li>
+    <li>Students Supporting UHN</li>
+</ul>
+<h3>Noteworthy Courses</h3>
+<div class="row" style="text-align: center;">
+    <div class="col-sm-3 col-xs-6">
+        <div class="four-piece" style="background-image: url(../images/computer-science.jpg);">
+            95%
         </div>
-        <div class="col-sm-3 col-xs-6">
-            <div class="four-piece" style="background-image: url(../images/biochemistry.jpg);">
-                90%
-            </div>
-            <p>Intro to Biochemical Research</p>
+        <p>Research Project & Seminar</p>
+    </div>
+    <div class="col-sm-3 col-xs-6">
+        <div class="four-piece" style="background-image: url(../images/biochemistry.jpg);">
+            92%
         </div>
-        <div class="col-sm-3 col-xs-6">
-            <div class="four-piece" style="background-image: url(../images/math.jpg);">
-                96%
-            </div>
-            <p>Linear Algebra I</p>
+        <p>Molecular Genetics of Human Cancer</p>
+    </div>
+    <div class="col-sm-3 col-xs-6">
+        <div class="four-piece" style="background-image: url(../images/math.jpg);">
+            96%
         </div>
-        <div class="col-sm-3 col-xs-6">
-            <div class="four-piece" style="background-image: url(../images/leadership.png);">
-                90%
-            </div>
-            <p>Exploring Leadership</p>
+        <p>Linear Algebra I</p>
+    </div>
+    <div class="col-sm-3 col-xs-6">
+        <div class="four-piece" style="background-image: url(../images/sn-hepatitis.jpg);">
+            91%
         </div>
+        <p>Bioinformatics of Infectious Disease</p>
     </div>
 </div>

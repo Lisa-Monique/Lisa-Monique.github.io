@@ -6,28 +6,35 @@ institutions:
     degrees: 
       - name: (Hons) BMSc Computational Biocehmistry
         description: |
-          <p class="more">I'm currently an undergraduate student pursuing a Bachelor of Medical Sciences with an Honours Specialisation in Computational Biochemistry. Current average: A</p>
+          <p class="more">I recently graduated from Western University achieving a Bachelor of Medical Sciences with an Honours Specialisation in Computational Biochemistry. Cumulative average: A</p>
           <h3>Accomplishments</h3>
           <ul style="margin-left: 20px;">
-              <li>Placed on 2016/2017 and 2017/2018 Dean's Honor List for attaining A average</li>
+              <li>Presented with the Rossiter Award for Research Excellence for achieving the highest average in the Biochemistry Research Project & Seminar course.</li>
+              <li>Completed four-year program in three years.</li>
+              <li>Graduated with distinction for achieving overall A average with no grade below 70% in entire program.</li>
+              <li>Placed on 2016/2017, 2017/2018 and 2018/2019 Dean's Honor List for attaining A average with no failures.</li>
               <li>Awarded International President's Entrance Scholarship as part of the University's National Scholarship Program after a rigorous application and interview process</li>
               <li>Selected as 1 of 50 incoming students to be part of the prestigious Scholar's Electives program: a research-intensive interdisciplinary-learning program which runs concurrently with academics (intended for high-achieving students who intend to pursue graduate studies following their undergraduate degree)</li>
-              <li>Completing 4 year program in 3 years by overloading during school year</li>
               <li>Certified SafeTalk Suicide-Alert helper</li>
 
           </ul>
           <h3>Activities & Societies</h3>
           <ul style="margin-left: 20px;">
-              <li>Women in Technology Society</li>
+              <li>Amnesty International</li>
+              <li>Biology Undergraduate Society</li>
               <li>Caribbean Students' Organization</li>
-              <li>Scientific Research Society</li>
-              <li>Western Crafting for a Cure</li>
-              <li>Amnesty International Western</li>
+              <li>Computer Science Undergraduate Society</li>
               <li>Mustang Bioinformatics Club</li>
+              <li>Scientific Research Society</li>
+              <li>Scholars Publications House</li>
+              <li>Students Supporting UHN</li>
+              <li>Western Crafting for a Cure</li>
+              <li>Western Women in Leadership Club</li>
+              <li>Women in Technology Society</li>
           </ul>
         date: |
-          Expected 2019 <br/>
-          <span class="sm imp">IN PROGRESS</span>
+          SEPT 2016 - Jun 2019 <br/>
+        # <span class="sm imp">IN PROGRESS</span>
         courses:
           - group: 2018
             id: western1819
@@ -36,52 +43,52 @@ institutions:
                 code: BIOCHEM4410
                 desc: >
                   The use of fundamental techniques in molecular biology and molecular genetics are illustrated using examples from the classic and current literature. Selected topics include eukaryotic gene cloning, transgenic animals, rational drug design, DNA replication and cell cycle regulation.
-                grade: ip
+                grade: 83% #ip
               - title: Applications of Synthetic Biology and Chemical Genetics in Medicine
                 code: BIOCHEM4415
                 desc: >
                   This course will explore how metabolic pathways are currently being re-engineered in microorganisms to produce drugs that are otherwise difficult to manufacture. We will also investigate how drug targets are being identified using newly developed chemical genetic screening methods. The impact of both approaches on medicine will be evaluated.
-                grade: ip
+                grade: 88%
               - title: Molecular Biology of Proteins
                 code: BIOCHEM4420
                 desc: >
                   Topics to be considered at an advanced level will include: translation, folding and assembly, targeting, turnover, structure and motifs.
-                grade: ip
+                grade: 85%
               - title: Proteomics and Protein Biotechnology
                 code: BIOCHEM4425
                 desc: >
                   The course will cover applied aspects of protein chemistry in biotechnology and protein design. Topics covered will include applications of modern analytical and biophysical techniques used in proteomics and related biochemical analyses, protein structure design, and antibody engineering.
-                grade: ip
+                grade: 84%
               - title: Molecular Genetics of Human Cancer
                 code: BIOCEHM4450
                 desc: >
                   Key cellular pathways that are frequently subverted in tumour cells leading to neoplasia will be discussed, as well as mechanisms by which environmental factors affect tumour development. Cancer models and molecular therapies will also be considered.
-                grade: ip
+                grade: 92%
               - title: Research Project and Seminar
                 code: BIOCEHM4483
                 desc: >
                   The major laboratory course for the Honors Specialization in Biochemistry and Honors Specialization modules combined with Biochemistry. Lectures on laboratory safety, biosafety, use of animals in research, scientific integrity; an independent research project (topic and advisor chosen by consultation between student and faculty); scientific communication (two seminars and a written report).
-                grade: ip
+                grade: 95%
               - title: Greek and Latin Elements in English
                 code: CLASSICS2800
                 desc: >
                   This course is intended as a practical means of enhancing English vocabulary through a systematic study of the contribution of the Classical languages to modern English, including the vocabulary of the sciences.
-                grade: ip
+                grade: 90%
               - title: "Special Topics in Popular Literature: The Many Faces of Harry Potter"
                 code: ENGLISH2092
                 desc: >
                   The wildly successful Harry Potter series has been noted for its capacity to cross traditional boundaries. Conventional wisdom claims that young girls won’t read a book with a male protagonist and young boys won’t read a book by a female author, yet Harry Potter has found an enthusiastic readership among children of both sexes. Age boundaries have proven to be equally elastic; the popularity of the series among adults has even prompted the creation of an adult-friendly edition of the series with dark cover art suitable for reading on public transportation. The flexibility of the series may relate to its roots in a wide variety of genres including the gothic novel, detective fiction, fantasy, adventure, and even the dystopian novel. This course will examine the Harry Potter series in relation to all these genres. We will read all seven books alongside other novels and short stories that illustrate the generic conventions Rowling is using.
-                grade: ip
+                grade: 78%
               - title: Bioinformatics of Infectious Disease
                 code: MICROIMM4750
                 desc: >
                   An overview of concepts and applications of techniques in bioinformatics for the study and clinical/public health management of infectious diseases. Students are introduced to the basic analysis of conventional and next-generation sequence data, principles of maximum likelihood and Bayesian inference, reconstructing epidemic and evolutionary histories, detecting adaptation, and molecular epidemiology.
-                grade: ip
+                grade: 91%
               - title: Bioethics and Disability
                 code: PHILISOP2072
                 desc: >
                   Introduction to how moral reasoning can help to identify and address current emerging disability-related situations in health care practice, caregiving, health policy and research. Normative ethics, philosophy of health care, and Disability Studies models are applied to discussion of case studies.
-                grade: ip
+                grade: 90%
           - group: 2017
             id: western1718
             courses:
