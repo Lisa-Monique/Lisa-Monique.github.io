@@ -6,19 +6,20 @@ img: "IMGP3668_edit.jpg"
 date:   2018-08-20 21:17:11 -0400
 categories: highlight
 ---
-<p class="more">I recently graduated from Western University achieving a Bachelor of Medical Sciences with an Honours Specialisation in Computational Biochemistry. Cumulative average: A</p>
+<p class="more">I recently graduated from the University of Western Ontario (Western University) where I earned my Bachelor of Medical Sciences degree with an Honours Specialization in Computational Biochemistry.</p>
 <h3>Accomplishments</h3>
 <ul style="margin-left: 20px;">
-    <li>Presented with the Rossiter Award for Research Excellence for achieving the highest average in the Biochemistry Research Project & Seminar course.</li>
-    <li>Completed four-year program in three years.</li>
-    <li>Graduated with distinction for achieving overall A average with no grade below 70% in entire program.</li>
+    <li>Cumulative average: A</li>
+    <li>Presented with Rossiter Award for Research Excellence (highest graded 4th-year Research Project in the Biochemistry Department).</li>
+    <li>Completed requirements for four-year program in three years.</li>
+    <li>Graduated with distinction (overall A average with no grade below 70% in entire program).</li>
 </ul>
 <h3>Activities & Societies</h3>
 <ul style="margin-left: 20px;">
-    <li>Scholars Publications House</li>
-    <li>Women in Technology Society</li>
-    <li>Western Crafting for a Cure</li>
-    <li>Students Supporting UHN</li>
+    <li>Scholars Publications House - Editor-in-Chief, Artistic Director</li>
+    <li>Women in Technology Society - VP Communications, SheHacks Organizer</li>
+    <li>Western Crafting for a Cure - Boys & Girls Club Volunteer</li>
+    <li>Students Supporting UHN - Founding Executive Member, VP Human Resources</li>
 </ul>
 <h3>Noteworthy Courses</h3>
 <div class="row" style="text-align: center;">
