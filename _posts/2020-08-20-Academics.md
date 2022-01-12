@@ -3,7 +3,7 @@ layout: post
 title:  "Academics."
 subtitle: "BMSc Computational Biochemistry, distinction"
 img: "proof_2.jpg"
-date:   2020-08-20 24:00:00 -0400
+date:   2020-08-20 23:00:00 -0400
 categories: highlight
 link: education.html
 ---

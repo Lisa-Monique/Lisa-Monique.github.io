@@ -3,7 +3,7 @@ layout: post
 title:  "Bioinformatician"
 subtitle: "The Hospital for Sick Children | May 2018 - present"
 img: "posterpres.png"
-date:   2018-08-20 21:17:10 -0400
+date:   2018-08-20 23:00:00 -0400
 categories: 
 ---
 
