@@ -1,4 +1,53 @@
 institutions:
+  - name: Independent Coursework
+    location: 
+    logo: 
+    id: independent
+    degrees:
+      - name: "Clinical Terminology for International and U.S. Students"
+        description: |
+          <em>University of Pittsburgh</em> through Coursera
+          <br/>Understanding the clinical terms and abbreviations commonly used during verbal or written communication in U.S. hospitals is challenging. This course is designed for health care profession students and practitioners who want to become more familiar with the language of the U.S. clinical setting and wish to develop a better understanding of terms and abbreviations used by health care providers. Topics: <br/>
+          <ol>
+              <li>Introduction to Clinical Terms and Abbreviations</li>
+              <li>Decoding Complex Medical Terms</li>
+              <li>Advanced Decoding Strategies for Clinical Terms</li>
+              <li>Diseases of the Bodily Systems</li>
+              <li>Laboratory Tests and Diagnostic Procedures</li>
+              <li>Practical Understanding Clinical Abbreviations and Complex Terms in Clinical Situations</li>
+          </ol>
+        date: MAY 2020<br>98.40%
+      - name: "ENGL 211 - Prose Forms"
+        description: |
+          <em>Athabasca University</em>
+          <br/>In ENGL 211 students examine a variety of fictional works in prose. The texts that will be studied in this course include American, British, and Canadian short stories and novels, ranging from the nineteenth to the twenty-first century. By examining these works and the accompanying commentaries in the Study Guide, students will encounter major literary concepts, terms, and analytical strategies. <br/><br/>
+        date: Aug 2020<br>97%
+      - name: "CS50: Introduction to Computer Science"
+        description: |
+          <em>Harvard University</em> through edX
+          <br/>Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Topics: 
+          <ol>
+            <li>Binary. ASCII. Algorithms. Pseudocode. Source code. Compiler. Object code. Scratch. Statements. Boolean expressions. Conditions. Loops. Variables. Functions. Arrays. Threads. Events.</li>
+            <li>Linux. C. Compiling. Libraries. Types. Standard output.</li>
+            <li>Casting. Imprecision. Switches. Scope. Strings. Arrays. Command-line arguments. Cryptography.</li>
+            <li>Debugging. Security. Searching. Sorting. Bubble sort. Selection sort. Insertion sort. O. Ω.</li>
+            <li>Θ. Merge sort. Recursion. Pointers. Dynamic memory allocation.</li>
+            <li>Stack. Heap. Stack overflow. Pre-processing. Compiling. Assembling. Linking.</li>
+            <li>File I/O. Linked lists. Hash tables. Tries.</li>
+            <li>Stacks. Queues. Trees. HTTP.</li>
+            <li>HTML. CSS. PHP. SQL.</li>
+            <li>JavaScript. Ajax.</li>
+          </ol>           
+        date: FEB 2016<br>1.0/1.0
+      - name: "Biology Meets Programming: Bioinformatics for Beginners"
+        description: |
+          <em>University of California, San Diego</em> through Coursera
+          <br/>This undergraduate course introduces students with limited programming experience to some of the key algorithmic ideas in modern computational biology. The course focuses on two questions at the forefront of modern computational biology, along with the algorithmic approaches used to solve them in:<br/>
+          <ol>
+              <li>Where in the Genome Does DNA Replication Begin?</li>
+              <li>Which DNA Patterns Play the Role of Molecular Clocks?</li>
+          </ol>
+        date: MAR 2016<br>87% (Distinction)
   - name: Western University
     location: London, ON, Canada
     logo: western-logo.gif
@@ -6,7 +55,7 @@ institutions:
     degrees: 
       - name: (Hons) BMSc Computational Biochemistry
         description: |
-          <p class="more">I recently graduated from the University of Western Ontario (Western University) where I earned my Bachelor of Medical Sciences degree with an Honours Specialization in Computational Biochemistry. Cumulative average: A</p>
+          <p class="more">I graduated from the University of Western Ontario (Western University) where I earned my Bachelor of Medical Sciences degree with an Honours Specialization in Computational Biochemistry. Cumulative average: A</p>
           <h3>Accomplishments</h3>
           <ul style="margin-left: 20px;">
               <li>Presented with Rossiter Award for Research Excellence (highest graded 4th-year Research Project in the Biochemistry Department).</li>
@@ -392,54 +441,5 @@ institutions:
                   Painting and Mixed Media (B)<br/>
                   Theory Process and Practice (A)
                 grade: Grade I
-  - name: Independent Coursework
-    location: 
-    logo: 
-    id: independent
-    degrees:
-      - name: "Clinical Terminology for International and U.S. Students"
-        description: |
-          <em>University of Pittsburgh</em> through Coursera
-          <br/>Understanding the clinical terms and abbreviations commonly used during verbal or written communication in U.S. hospitals is challenging. This course is designed for health care profession students and practitioners who want to become more familiar with the language of the U.S. clinical setting and wish to develop a better understanding of terms and abbreviations used by health care providers. Topics: <br/>
-          <ol>
-              <li>Introduction to Clinical Terms and Abbreviations</li>
-              <li>Decoding Complex Medical Terms</li>
-              <li>Advanced Decoding Strategies for Clinical Terms</li>
-              <li>Diseases of the Bodily Systems</li>
-              <li>Laboratory Tests and Diagnostic Procedures</li>
-              <li>Practical Understanding Clinical Abbreviations and Complex Terms in Clinical Situations</li>
-          </ol>
-        date: MAY 2020<br>98.40%
-      - name: "ENGL 211 - Prose Forms"
-        description: |
-          <em>Athabasca University</em>
-          <br/>In ENGL 211 students examine a variety of fictional works in prose. The texts that will be studied in this course include American, British, and Canadian short stories and novels, ranging from the nineteenth to the twenty-first century. By examining these works and the accompanying commentaries in the Study Guide, students will encounter major literary concepts, terms, and analytical strategies. <br/><br/>
-        date: <span class="sm imp">IN PROGRESS</span>
-      - name: "CS50: Introduction to Computer Science"
-        description: |
-          <em>Harvard University</em> through edX
-          <br/>Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Topics: 
-          <ol>
-            <li>Binary. ASCII. Algorithms. Pseudocode. Source code. Compiler. Object code. Scratch. Statements. Boolean expressions. Conditions. Loops. Variables. Functions. Arrays. Threads. Events.</li>
-            <li>Linux. C. Compiling. Libraries. Types. Standard output.</li>
-            <li>Casting. Imprecision. Switches. Scope. Strings. Arrays. Command-line arguments. Cryptography.</li>
-            <li>Debugging. Security. Searching. Sorting. Bubble sort. Selection sort. Insertion sort. O. Ω.</li>
-            <li>Θ. Merge sort. Recursion. Pointers. Dynamic memory allocation.</li>
-            <li>Stack. Heap. Stack overflow. Pre-processing. Compiling. Assembling. Linking.</li>
-            <li>File I/O. Linked lists. Hash tables. Tries.</li>
-            <li>Stacks. Queues. Trees. HTTP.</li>
-            <li>HTML. CSS. PHP. SQL.</li>
-            <li>JavaScript. Ajax.</li>
-          </ol>           
-        date: FEB 2016<br>1.0/1.0
-      - name: "Biology Meets Programming: Bioinformatics for Beginners"
-        description: |
-          <em>University of California, San Diego</em> through Coursera
-          <br/>This undergraduate course introduces students with limited programming experience to some of the key algorithmic ideas in modern computational biology. The course focuses on two questions at the forefront of modern computational biology, along with the algorithmic approaches used to solve them in:<br/>
-          <ol>
-              <li>Where in the Genome Does DNA Replication Begin?</li>
-              <li>Which DNA Patterns Play the Role of Molecular Clocks?</li>
-          </ol>
-        date: MAR 2016<br>87% (Distinction)
-
+  
     
