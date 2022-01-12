@@ -1,0 +1,38 @@
+---
+layout: page
+title: Involvement
+permalink: involvement.html
+banner: watermarked-9472.jpg
+meta: ""
+---
+{% for workplace in site.data.involvement %}
+<div class="row">
+    <!-- EDIT: work line 1 -->
+    <div class="col-lg-10 col-lg-offset-1">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1>{{workplace.employer}}</h1>
+                <p style="font-style: italic;">{{workplace.location}} — {{workplace.date}}</p>
+            </div>
+            <div class="col-lg-4"><img class="workimg" src="images/{{workplace.logo}}"></div>
+        </div>
+        {% for position in workplace.positions %}
+        <div class="row">
+            <div class="col-lg-9 workplace">
+            
+                <p class="t">{{position.title}}<br/></p>
+                {{position.desc}}
+            </div>
+            <div class="col-lg-3">
+                <p class="sm">{{position.date}} <br/></p>
+            </div>
+        </div>
+        <br>
+        {% endfor %}            
+    </div>
+</div>
+<br>
+{% unless forloop.last == true %}
+<hr>
+{% endunless %}
+{% endfor %}

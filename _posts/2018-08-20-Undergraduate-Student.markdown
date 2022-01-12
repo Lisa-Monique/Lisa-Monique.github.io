@@ -3,8 +3,8 @@ layout: post
 title:  "Bachelor of Medical Sciences"
 subtitle: "Western University | 2016 - 2019"
 img: "IMGP3668_edit.jpg"
-date:   2018-08-20 21:17:11 -0400
-categories: highlight
+date:   2018-08-20 23:00:00 -0400
+categories: 
 ---
 <p class="more">I recently graduated from the University of Western Ontario (Western University) where I earned my Bachelor of Medical Sciences degree with an Honours Specialization in Computational Biochemistry.</p>
 <h3>Accomplishments</h3>

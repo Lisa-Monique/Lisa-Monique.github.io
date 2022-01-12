@@ -3,8 +3,8 @@ layout: post
 title:  "SheHacks II Organizer"
 subtitle: "Women in Technology Society | Mar 2018"
 img: "watermarked-9472.jpg"
-date:   2018-08-20 21:17:08 -0400
-categories: highlight
+date:   2018-08-20 23:00:00 -0400
+categories: 
 ---
 <p>On March 25th, 2018, the Women in Technology Society (WiTS) hosted 150 women from across Canada for Western University's first and only hackathon designed to encourage women in tech: SheHacks.  Over the past year, I was the Communications Director of WiTS and therefore had the opportunity to help organize SheHacks II.</p>
 <p>The mission of WiTS is to encourage, connect, and inspire women to explore the technology industry and SheHacks II was created to encourage women* from all backgrounds and skill sets to attend a hackathon in a fun, safe, and inclusive environment.</p>
