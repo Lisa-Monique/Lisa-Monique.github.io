@@ -185,8 +185,6 @@ video {
   margin-bottom: 0;
 }
 .nav-inner{
-  display: table;
-  width: 100%;
   margin: 0 auto;
   padding: 2% 10%;
   vertical-align: middle;
@@ -215,6 +213,7 @@ video {
 }
 .navbar li a {
   color: var(--light-accent-2);
+  font-weight: normal;
   text-shadow: 2px 2px 1px #000000;
 }
 #home {
@@ -335,6 +334,7 @@ p {
 /* Links */
 a {
   color: var(--dark-accent-1);
+  font-weight: bold;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -383,7 +383,7 @@ hr {
   }
 
   .post-info {
-    background: var(--light-accent-1);
+    background-color: var(--light-accent-1);
     color: black;
     font-size: 12px;
     padding: 30px;
@@ -679,7 +679,7 @@ hr {
   }
   .scroll-arrow{
   bottom: 30vh;
-
+  }
   
 }
 @media only screen and (max-width: 768px){
