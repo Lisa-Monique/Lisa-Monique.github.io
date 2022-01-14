@@ -493,10 +493,11 @@ hr {
     color: #2f2f2f;
   }
 
-  .desc .t {
+  .desc .tit-emp {
     color: var(--dark-accent-2);
     font-weight: 700;
     letter-spacing: 2px;
+    text-transform: uppercase;
   }
 
   .desc .imp {
