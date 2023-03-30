@@ -1,55 +1,690 @@
 ---
 layout: default
-banner: "IMG_9888_centre.jpg"
-meta: "Lab Description"
+meta: Summary
 ---
-<div class="header" style="background-image: url('{{site.baseurl}}images/{{page.banner}}'); ">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-lg-12">
-                <h1>Lisa-Monique Edward</h1>
-                <h3>Bioinformatician | Pediatric Cancer Genomics / Precision Oncology</a></h3>
-            </div>
-            <a href="#about" class="scroll-arrow"><span>HIGHLIGHTS</span></a>
-        </div>
-    </div>
-</div>
-<section id="about">
-    <div class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-lg-offset-1">
-                    <h5>ABOUT ME</h5>
+
+<!--==================== MAIN ====================-->
+<main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+        <div class="home__container container grid">
+            <div class="home__content grid">
+                <div class="home__social">
+                    <a href="{{site.linkedin_username}}" target="_blank" class="home__social-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="{{site.twitter_username}}" target="_blank" class="home__social-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="assets/resume-2023.pdf" target="_blank" class="home__social-icon">
+                       <i class="fa-solid fa-file-pdf"></i> 
+                    </a>
                 </div>
-                <div class="col-lg-6">
-                    <p>Knowledgeable and skilled Bioinformatician with a passion for cancer research and translational genomics and with over 2 years’ experience in a precision oncology research program.</p>
-                    <p>I'm a graduate of Western University's Bachelor of Medical Sciences program with an Honors Specialization in Computational Biochemistry and I have a consistent record of academic recognition and demonstrated leadership ability.</p>
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                        <image class="home__blob-img" x='2' y='20'  xlink:href="assets/images/IMG_2057_nobg.png"/>
+                        </g>
+                    </svg>
                 </div>
-                <div class="col-lg-3">
-                    <p><i class="fa fa-map-pin"></i> <span class="sm">Toronto, ON</span></p>
-                    <p><a href="{{site.linkedin_username}}" target="_blank"><i class="fab fa-linkedin"></i> <span class="sm">lisa-moniqueedward</span></a></p>
-                    <p><a href="{{site.twitter_username}}" target="_blank"><i class="fab fa-twitter"></i> <span class="sm">_LisaMonique</span></a></p>
-                    <p><a href="resume-2021.pdf" target="_blank"><i class="fa fa-download"></i> <span class="sm">Resume</span></a></p>
-                    <!-- <p><a href="research-CV-21.pdf" target="_blank"><i class="fa fa-download"></i> <span class="sm">CV</span></a></p> -->
+                
+                <div class="home__data">
+                    <h1 class="home__title">Hi, I'm <br>Lisa-Monique</h1>
+                    <h3 class="home__subtitle">Bioinformatician, Web Developer, Graphic Designer &amp; Visual Artist</h3>
+                    <p class="home__description"><i style="margin-right: 10px;" class="fa-solid fa-map-pin"></i>Toronto, ON</p>
+                    <p class="home__description">I like to describe myself as a <span style="font-weight: bold;">scientist by profession</span> and a <span style="font-weight: bold;">creative by nature</span> and I love to combine these two essences to produce beautiful work. To learn more about my background, keep reading and feel free to reach out if you'd like to work together!</p>
+                    <a href="#contact" class="button button--flex">
+                       Contact Me <i style="padding-left: 10px" class="fa-solid fa-arrow-right-to-bracket"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="home__scroll">
+                <a href="#about" class="home__scroll-button button--flex">
+                    <i class="fa-solid fa-angles-down" style="padding-right: 10px;"></i>
+                    <span class="home__scroll-name">Scroll down</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+        <h2 class="section__title">About</h2>
+        <span class="section__subtitle">Summary of Qualifications</span>
+        
+        <div class="about__container container grid">
+            <img src="assets/images/proof_2.jpg" alt="" class="about__img">
+            
+            <div class="about__data">
+                <p class="about__description">In 2019, I earned my Honors B.M.Sc. in Bioinformatics / Computational Biochemistry from Western University and, since then (4+ years), I have developed my reputation as a knowledgeable and skilled Bioinformatician with a focus in Cancer Genomics Research and NGS Analysis Pipeline Development. I also completed Visual Art training in 2013 and I've been combining my technical and creative abilities to design and build websites for ~8 years and to create digital and visual art for ~12 years.</p>
+                
+                <!-- <div class="about__info">
+                    <div>
+                        <span class="about__info-title">04+</span>
+                        <span class="about__info-name">Bioinformatics</span>
+                    </div>
+                    
+                    <div>
+                        <span class="about__info-title">08+</span>
+                        <span class="about__info-name">Web Development</span>
+                    </div>
+                    
+                    <div>
+                        <span class="about__info-title">12+</span>
+                        <span class="about__info-name">Visual Artist</span>
+                    </div>
+                </div> -->
+                
+                <div class="about__buttons">
+                    <a download="" href="assets/resume-2023.pdf" class="button button--flex">
+                        Download CV<i class="fa-solid fa-download button__icon"></i>
+                    </a>
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">Levels of Experience</span>
+        
+        <div class="skills__container container grid">
+            <div>
+                <!--==================== SKILLS 1====================-->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="fa-solid fa-dna skills__icon"></i>
+                        
+                        <div>
+                            <h1 class="skills__title">Bioinformatics</h1>
+                            <span class="skills__subtitle">4+ years</span>
+                        </div>
+                        
+                        <i class="fa-solid fa-angle-down skills__arrow"></i>
+                    </div>
+                    
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Python</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__90"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">R</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__80"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">WDL</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__70"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Nextflow</h3>
+                                <span class="skills__number">50%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__50"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">HPC Environments</h3>
+                                <span class="skills__number">90%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__90"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                 <!--==================== SKILLS 2====================-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="fa-solid fa-code skills__icon"></i>
+                        
+                        <div>
+                            <h1 class="skills__title">Web Design/Development</h1>
+                            <span class="skills__subtitle">8+ years</span>
+                        </div>
+                        
+                        <i class="fa-solid fa-angle-down skills__arrow"></i>
+                    </div>
+                    
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__80"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__80"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Javascript</h3>
+                                <span class="skills__number">60%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__60"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">PHP</h3>
+                                <span class="skills__number">50%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__50"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Shopify</h3>
+                                <span class="skills__number">75%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__75"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Squarespace</h3>
+                                <span class="skills__number">75%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__75"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Wix</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__80"></span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Wordpress</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__70"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+             <!--==================== SKILLS 3====================-->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="fa-solid fa-swatchbook skills__icon"></i>
+                        
+                        <div>
+                            <h1 class="skills__title">Graphic/Visual Art</h1>
+                            <span class="skills__subtitle">12+ years</span>
+                        </div>
+                        
+                        <i class="fa-solid fa-angle-down skills__arrow"></i>
+                    </div>
+                    
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Illustrator</h3>
+                                <span class="skills__number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__80"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Photoshop</h3>
+                                <span class="skills__number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__70"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Mixed Media</h3>
+                                <span class="skills__number">65%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__65"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!--==================== QUALIFICATION ====================-->
+    <section class="qualification section">
+        <h2 class="section__title">Journey</h2>
+        <span class="section__subtitle">Career Highlights</span>
+        
+        <div class="qualification__container container">
+            <div class="qualification__tabs">
+                <div class="qualification__button button--flex qualification__active" data-target='#work'>
+                    <i class="fa-solid fa-briefcase qualification__icon"></i>
+                    Work
+                </div>
+                
+                <div class="qualification__button button--flex" data-target="#education">
+                    <i class="fa-solid fa-graduation-cap qualification__icon"></i>
+                    Education
+                </div>
+            </div>
+            
+            <div class="qualification__section">
+                <!--==================== QUALIFICATION CONTENT 1====================-->
+                <div class="qualification__content qualification__active" data-content id="work">
+                    
+                    <!--==================== QUALIFICATION 1====================-->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Bioinformatician - Translational Research</h3>
+                            <span class="qualification__subtitle">Roche Diagnostics</span>
+                            <div class="qualification__calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                2022 - Present
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div> 
+                    
+                    <!--==================== QUALIFICATION 2====================-->
+                    <div class="qualification__data">
+                        <div></div>
+                        
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        
+                        <div>
+                            <h3 class="qualification__title">Founder, Developer</h3>
+                            <span class="qualification__subtitle">LME Development Services</span>
+                            <div class="qualification__calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                2022 - Present
+                            </div>
+                        </div>
+                        
+                        
+                    </div> 
+
+                    <!--==================== QUALIFICATION 3====================-->
+                    <div class="qualification__data">
+                        
+                        <div>
+                            <h3 class="qualification__title">Owner, Artist</h3>
+                            <span class="qualification__subtitle">Lisa-Monique Fine Art</span>
+                            <div class="qualification__calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                2021 - Present
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div> 
+
+                    <!--==================== QUALIFICATION 4====================-->
+                    <div class="qualification__data">
+                        <div></div>
+                        
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        
+                        <div>
+                            <h3 class="qualification__title">Bioinformatician - Precision Oncology</h3>
+                            <span class="qualification__subtitle">The Hospital for Sick Children</span>
+                            <div class="qualification__calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                2019 - 2022
+                            </div>
+                        </div>  
+                        
+                    </div> 
+
+                    <!--==================== QUALIFICATION 5====================-->
+                    <div class="qualification__data">
+                        
+                        <div>
+                            <h3 class="qualification__title">Clinical Lab Assistant</h3>
+                            <span class="qualification__subtitle">Ezra Long Laboratory, Victoria Hospital</span>
+                            <div class="qualification__calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                2015 - 2016
+                            </div>
+                        </div>
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <!-- <span class="qualification__line"></span> -->
+                        </div>
+                    </div> 
+                    
+                     
+                </div>
+               
+                <!--==================== QUALIFICATION CONTENT 2====================-->
+                <div class="qualification__content" data-content id="education">
+                    <!--==================== QUALIFICATION 1====================-->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">The Complete 2022 Web Development Bootcamp</h3>
+                            <span class="qualification__subtitle">Udemy</span>
+                            <div class="qualification__calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                In progress
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                    </div>
+                    
+                    <!--==================== QUALIFICATION 2====================-->
+                    <div class="qualification__data">
+                        <div></div>
+                        
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                        </div>
+                        
+                        
+                        <div>
+                            <h3 class="qualification__title">Honors BMSc Computational Biochemistry</h3>
+                            <span class="qualification__subtitle">The University of Western Ontario</span>
+                            <div class="qualification__calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                2016 - 2019
+                            </div>
+                        </div>  
+                    </div> 
+                    
+                    <!--==================== QUALIFICATION 3====================-->
+                    <div class="qualification__data">
+                        <div>
+                            <h3 class="qualification__title">Introduction to Computer Science</h3>
+                            <span class="qualification__subtitle">EdX - Harvard University</span>
+                            <div class="qualification__calendar">
+                                <i class="fa-regular fa-calendar"></i>
+                                2015 - 2016
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <span class="qualification__rounder"></span>
+                            <span class="qualification__line"></span>
+                            <!--span class="qualification__line"></span> -->
+                        </div>
+                    </div> 
+                    
+                    <!--==================== QUALIFICATION 4====================-->
+                    <div class="qualification__data">
+                    <div>
+                        
+                    </div>
+                    
+                    <div>
+                        <span class="qualification__rounder"></span>
+                        <!--span class="qualification__line"></span> -->
+                    </div>
+                    
+                    <div>
+                        <h3 class="qualification__title">Associate of Natural Sciences</h3>
+                        <span class="qualification__subtitle">Sir Arthur Lewis Community College</span>
+                        <div class="qualification__calendar">
+                            <i class="fa-regular fa-calendar"></i>
+                            2013 - 2015
+                        </div>
+                    </div>    
+                </div> 
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section id="interest">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 offset-lg-3 col-sm-10 offset-sm-1 col-xs-10 offset-xs-1" style="margin-top: 20px; font-weight: bold;">
-                <div style="text-align: center;"><h3 style="color: var(--dark-accent-1); font-weight: bold;">RESEARCH INTERESTS</h3></div>
-                <ul>
-                    <li>Cancer Biology</li>
-                    <li>Bioinformatics and Computational Biology</li>
-                    <li>Genetics, Genomics, Epigenomics, Transcriptomics and Multi-omics Studies</li>
-                    <li>Translational Medicine; Precision Medicine</li>
-                    <li>Race, Ethnicity and Genomics; Genetic Predisposition/Ethnology; Health Disparities</li>
-                    <li>Tumour Evolution and Heterogeneity; Tumorigenesis</li>
-                </ul>
+    </section>
+
+    <!--==================== SERVICES ====================-->
+    <section class="services section" id="services">
+        <h2 class="section__title">Services</h2>
+        <span class="section__subtitle">What I offer</span>
+
+        <div class="services__container container grid">
+            <!--==================== SERVICES 1====================-->
+            <div class="services__content">
+                <div>
+                    <i class="fa-solid fa-dna services__icon"></i>
+                    <h3 class="services__title">Bioinformatics</h3>
+                </div>
+                
+                <a href="{{baseurl}}/experience.html" class="button button--flex button--small button--link services__button">
+                    Read More
+                    <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+            </div>
+
+            <!--==================== SERVICES 2====================-->
+            <div class="services__content">
+                <div>
+                    <i class="fa-solid fa-laptop-code services__icon"></i>
+                    <h3 class="services__title">Web Design</h3>
+                </div>
+                
+                <a href="{{site.dev_link}}" class="button button--flex button--small button--link services__button">
+                    Hire Me
+                    <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+            </div>
+
+            <!--==================== SERVICES 3====================-->
+            <div class="services__content">
+                <div>
+                    <i class="fa-solid fa-code services__icon"></i>
+                    <h3 class="services__title">Web Development / Programming</h3>
+                </div>
+                
+                <a href="{{site.dev_link}}" class="button button--flex button--small button--link services__button">
+                    Hire Me
+                    <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+            </div>
+
+            <!--==================== SERVICES 4====================-->
+            <div class="services__content">
+                <div>
+                    <i class="fa-solid fa-wand-magic-sparkles services__icon"></i>
+                    <h3 class="services__title">Graphic Design</h3>
+                </div>
+                
+                <a href="{{site.dev_link}}" class="button button--flex button--small button--link services__button">
+                    Hire Me
+                    <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+            </div>
+
+            <!--==================== SERVICES 5====================-->
+            <div class="services__content">
+                <div>
+                    <i class="fa-solid fa-pencil services__icon"></i>
+                    <h3 class="services__title">Visual Art</h3>
+                </div>
+                
+                <a href="{{site.art_link}}" class="button button--flex button--small button--link services__button">
+                    Shop Art
+                    <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
+            </div>
+
+            <!--==================== SERVICES 6====================-->
+            <div class="services__content">
+                <div>
+                    <i class="fa-solid fa-user-group services__icon"></i>
+                    <h3 class="services__title">Mentorship</h3>
+                </div>
+                
+                <a href="#contact" class="button button--flex button--small button--link services__button">
+                    Contact Me
+                    <i class="fa-solid fa-arrow-right button__icon"></i>
+                </a>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <!--==================== PROJECT IN MIND ====================-->
+    <section class="project section">
+        <div class="project__bg">
+            <div class="project__container container grid">
+                <div class="project__data">
+                    <h2 class="project__title">Science Communication &amp;<br> Community Outreach</h2>
+                    <p class="project__description">I greatly enjoy Science Communication and welcome the opportunity to be involved in outreach initiatives, particularly targeting minority populations such as black/immigrant youth and women/girls in science and/or tech.</p>
+                    <a href="#contact" class="button button--flex button--white">
+                        Contact Me
+                        <i class="fa-solid fa-message project__icon button__icon"></i>
+                    </a>
+                </div>
+                
+                <div style="background-image: url(assets/images/IMG_9819.png)" class="project__img"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--==================== CONTACT ME ====================-->
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <span class="section__subtitle">Please contact me if you'd like to work together in any of my capacities!</span>
+        
+        <div class="contact__container container grid">
+            <div>
+                <!-- <div class="contact__information">
+                    <i class="uil uil-phone contact__icon"></i>
+                    
+                    <div>
+                        <h3 class="contact__title">Telefono/WhatsApp</h3>
+                        <span class="contact__subtitle">3465252942</span>
+                    </div>
+                </div> -->
+                
+                 <div class="contact__information">
+                    <i class="fa-solid fa-envelope contact__icon"></i>
+                    
+                    <div>
+                        <h3 class="contact__title">Email</h3>
+                        <span class="contact__subtitle">{{site.email}}</span>
+                    </div>
+                </div>
+                
+                 <div class="contact__information">
+                    <i class="fa-solid fa-map-marker contact__icon"></i>
+                    
+                    <div>
+                        <h3 class="contact__title">Location</h3>
+                        <span class="contact__subtitle">Toronto, ON</span>
+                    </div>
+                </div>
+            </div>
+            
+            <form action="" class="contact__form grid">
+                <div class="contact__inputs grid">
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Name</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Email</label>
+                        <input type="email" class="contact__input">
+                    </div>
+                </div>
+                
+                <div class="contact__content">
+                        <p class="contact__label">Service Interest</p>
+                        <input type="radio" class="contact__radio" id="bioinformatics" value="Bioinformatics" name="service_interest">
+                        <label for="bioinformatics">Bioinformatics</label><br>
+                        <input type="radio" class="contact__radio" id="development" value="Web Development" name="service_interest">
+                        <label for="development">Web Development</label><br>
+                        <input type="radio" class="contact__radio" id="art" value="Art" name="service_interest">
+                        <label for="art">Art</label><br>
+                        <input type="radio" class="contact__radio" id="speaking" value="Speaking" name="service_interest">
+                        <label for="speaking">Speaking Engagement</label>
+                    </div>
+                
+                <div class="contact__content">
+                        <label for="" class="contact__label">Enquiry</label><br>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+                
+                <div>
+                    <a href="#" class="button button--flex">
+                        Send
+                        <i class="fa-solid fa-paper-plane button__icon"></i>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>

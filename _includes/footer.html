@@ -1,53 +1,45 @@
-<section id="contact">
-        <!--FOOTER DESCRIPTION -->
-        <div style="background-color: #555">
-            <div class="container">
-                <div class="row nav-inner bottom-links">
-                    <div class="col-md-4">
-                        <a href="experience.html">Experience</a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="education.html">Education</a>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="awards.html">Awards</a>
-                    </div>
-
-                </div>
+<!--==================== FOOTER ====================-->
+<footer class="footer">
+    <div class="footer__bg">
+        <div class="footer__container container grid">
+            <div>
+                <h1 class="footer__title">Lisa-Monique</h1>
+                <span class="footer__subtitle">Bioinformatician, <br>Web Developer &amp;<br> Artist</span>
+            </div>
+            
+            <ul class="footer__links">
+                <li>
+                    <a href="{{baseurl}}/experience.html" class="footer__link">Experience</a>
+                </li>
+                <li>
+                    <a href="{{baseurl}}/education.html" class="footer__link">Education</a>
+                </li>
+                <li>
+                    <a href="{{baseurl}}/business.html" class="footer__link">Business</a>
+                </li>
+            </ul>
+            
+            <div class="footer__socials">
+                <a href="{{site.github_username}}" target="_blank" class="footer__social">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="{{site.linkedin_username}}" target="_blank" class="footer__social">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                 <a href="{{site.twitter_username}}" target="_blank" class="footer__social">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
             </div>
         </div>
-        <div id="footwrap" class="footer">
-            
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-2 col-lg-offset-1">
-                        <h5>CONTACT</h5>
-                    </div>
-                    <!-- EDIT: email -->
-                    <div class="col-lg-6">
-                        <p><span class="sm">EMAIL</span><br/>
-                            <a href="mailto:{{site.email}}" target="_blank" class="mail">{{site.email}}</a> <br/>
-                        </p>
-                        <!-- EDIT: address -->
-                        <p><span class="sm">ADDRESS</span><br/>
-                            Toronto, ON M5B 0A5<br/>
-                            Canada<br/>
-                        </p>
-                        
-                    </div>
-                    <div class="col-lg-3">
-                        <p><span class="sm">SOCIAL LINKS</span></p>
-                        <p>
-                        <!-- EDIT: Social Links.-->
-                        <a href="{{site.github_username}}" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="{{site.linkedin_username}}" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="{{site.twitter_username}}" target="_blank"><i class="fab fa-twitter"></i></a>
-                        <a href="{{site.art_link}}" target="_blank"><i class="far fa-paint-brush"></i></a>
-                        <!-- <a href="{{site.external}}" target="_blank"><i class="fab fa-wordpress"></i></a> -->
-                    </p>
-                    </div>
-                </div><!--/.row -->
-            </div><!--/.container -->
-        </div><!--/ #footer -->
-    </section>
+    </div>
+    <div class="footer__bg">
+        <p class="footer__subtitle paragraph-center">Made by Lisa-Monique Edward</p>
+    </div>
+</footer>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+    </a>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

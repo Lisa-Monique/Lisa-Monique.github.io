@@ -1,0 +1,35 @@
+- authors: |
+    Villani, A., Davidson, S., Kanwar, N., Lo, W. W., Li, Y., Cohen-Gogo, S., Fuligni, F., <strong>Edward, L.-M.,</strong> Light, N., Layeghifard, M., Harripaul, R., Waldman, L., Gallinger, B., Comitani, F., Brunga, L., Hayes, R., Anderson, N. D., Ramani, A. K., Yuki, K. E., … Shlien, A.
+  year: 2022
+  title: |
+      The clinical utility of integrative genomics in childhood cancer extends beyond targetable mutations
+  journal: Nature Cancer
+  volume: 4
+  issue: 2
+  pages: 203-221
+  doi: https://doi.org/10.1038/s43018-022-00474-y
+- authors: |
+    Zatzman, M., Fuligni, F., Ripsman, R., Suwal, T., Comitani, F., <strong>Edward, L.-M.,</strong> Denroche, R., Jang, G. H., Notta, F., Gallinger, S., Selvanathan, S. P., Toretsky, J. A., Hellmann, M. D., Tabori, U., Huang, A., & Shlien, A.
+  year: 2022
+  title: |
+    Widespread hypertranscription in aggressive human cancers
+  journal: Science Advances
+  volume: 8
+  issue: 47
+  pages: 238
+  doi: https://doi.org/10.1126/SCIADV.ABN0238/SUPPL_FILE/SCIADV.ABN0238_DATA_S1_TO_S6.ZIP
+- authors: |
+    Nakamori, M., Panigrahi, G. B., Lanni, S., Gall-Duncan, T., Hayakawa, H., Tanaka, H., Luo, J., Otabe, T., Li, J., Sakata, A., Caron, M.-C., Joshi, N., Prasolava, T., Chiang, K., Masson, J.-Y., Wold, M. S., Wang, X., Lee, M. Y. W. T., Huddleston, J., … Pearson, C. E.
+  year: 2020
+  title: |
+    A slipped-CAG DNA-binding small molecule induces trinucleotide-repeat contractions in vivo
+  journal: Nature Genetics
+  volume: 52
+  issue: 2
+  pages: 146–159
+  doi: https://doi.org/10.1038/s41588-019-0575-8
+- authors: |
+    Fernandes, A. D., Vu, M. T. H. Q., <strong>Edward, L.-M.,</strong> Macklaim, J. M., & Gloor, G. B.
+  year: 2019
+  title: A reproducible effect size is more useful than an irreproducible hypothesis test to analyze high throughput sequencing datasets
+  journal: ArXiv Preprint

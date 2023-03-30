@@ -5,66 +5,61 @@ permalink: education.html
 banner: proof_2.jpg
 meta: ""
 ---
-{% for institution in site.data.education.institutions %}
-<div class="row" id="{{institution.id}}">
-    <!-- EDIT: work line 1 -->
-    <div class="col-lg-10 col-lg-offset-1">
-        <div class="row">
-            <div class="col-lg-8">
-                <h1>{{institution.name}}</h1>
-                <p style="font-style: italic;">{{institution.location}}</p>
-            </div>
-            {% if institution.logo %}
-            <div class="col-lg-4"><img class="workimg" src="images/{{institution.logo}}"></div>
-            {% endif %}
-        </div>
-        {% for degree in institution.degrees %}
-            <div class="row">
-                <div class="col-lg-9 workplace">
-                
-                    <p class="tit-emp">{{degree.name}}<br/></p>
-                    
-                    {{degree.description}}
+<section class="section" id="education">
+    <div class="education__container container">
+        <div>
+            <!--==================== EDUCATION 1====================-->
+            {% for institution in site.data.education.institutions %}
+            <div class="education__content{% if forloop.first == true %} education__open{% else %} education__close{% endif %}">
+                <div class="education__header">
+                    <img class="education__icon" src="assets/images/{{institution.logo}}">
 
+                    <div>
+                        <h1 class="education__title">{{institution.name}}</h1>
+                        <span class="education__subtitle">{{institution.location}} | {{institution.date}}</span>
+                    </div>
+
+                    <i class="fa-solid fa-angle-down education__arrow"></i>
                 </div>
 
-                <div class="col-lg-3">
-                    <p>
-                        <span class="sm">{{degree.date}}</span><br/>
-                    </p>
-                </div>
-            </div>
-            {% if degree.courses %}
-            <h3>Courses</h3>
-            {% for group in degree.courses %}
-            <button class="button" id="{{group.id}}button"><h3>{{group.group}}</h3></button>
-            <div id="{{group.id}}" style="display: none">
-                {% for course in group.courses %}
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-1">
-                        <p><span class="tit-emp">{{course.title}}</span><br/>{{course.code}}
-                            <br/><i>{{course.desc}}</i>
-                        </p>
+                <div class="education__list grid">
+                    {% for degree in institution.degrees %}
+                    <div class="education__data">
+                        <h3 class="education__name">{{degree.name}}</h3>
+                        <div class="education__description grid">
+                            <div>{{degree.description}}</div>
+                            <div>{{degree.grade}}</div>
+                        </div>
+
+                        <h4 class="courses">Coursework</h4>
+                        {% for group in degree.courses %}
+                        <span class="button button--flex button--small button--link courses__button">
+                            {{group.group}}
+                            <i class="fa-solid fa-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="courses__modal">
+                            <div class="courses__modal-content">
+                                <h4 class=courses__modal-title">{{group.group}}:</h4>
+                                <i class="fa-solid fa-xmark courses__modal-close"></i>
+
+                                <ul class="courses__modal-courses grid">
+                                    {% for course in group.courses %}
+                                    <li class="grid">
+                                        <span class="courses__modal-course">{{course.title}}</span>
+                                        <span class="courses__modal-grade">{{course.grade}}</span>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        {% endfor %}
                     </div>
-                    <div class="col-lg-3">
-                        {% if course.grade == "ip" %}
-                        <p><span class="sm imp">IN PROGRESS</span><br/></p>
-                        {% else %}
-                        <p><span class="sm">{{course.grade}}</span></p>
-                        {% endif %}
-                    </div>
+                    {% endfor %}
                 </div>
-                {% endfor %}
-                <a href="#{{institution.id}}" id="{{group.id}}close" class="close-courses"><span>CLOSE</span></a>
             </div>
             {% endfor %}
-            {% endif %}
-        {% endfor %}
-        
-        <br>
-        {% unless forloop.last == true %}
-        <hr>
-        {% endunless %}
+        </div>
     </div>
-</div>
-{% endfor %}
+</section>
+

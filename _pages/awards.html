@@ -1,25 +1,87 @@
 ---
 layout: page
-title: Awards
+title: Achievements
 permalink: awards.html
-banner: IMG_1142.png
+banner: 1897c7d0-d625-41f9-ae23-b05fc01a2314.png
 meta: ""
 ---
-<div class="row">
-{% for award in site.data.awards %}
-    <div class="col-md-6">
-        <div class="col-xs-9">
-            <p>
-                <span class="tit-emp">{{award.title}}</span><br/>
-                {{award.company}}
-            </p>
-            <p class="more">{{award.desc}}</p>
+<section class="publications section" id="pubs">
+    <div class="achievements__container container grid">
+        <div class="pub__content skills__open">
+            <div class="pub__header">
+                <i class="fa-solid fa-pen-fancy skills__icon"></i>
+                <div>
+                    <h1 class="skills__title">Publications</h1>
+                    <span class="skills__subtitle">Peer-Reviewed &amp; Non-Peer-Reviewed</span>
+                </div>
+
+                <i class="fa-solid fa-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+                <div class="pub__data">
+                    {% for pub in site.data.pubs %}
+                    <p class="pub__citation"><span>{{pub.authors}}</span>(<span>{{pub.year}})</span>. <span>{{pub.title}}. </span><span style="font-style: italic;">{{pub.journal}}</span>, <span>{{pub.volume}}({{pub.issue}})</span>, <span>{{pub.pages}}</span>. <a href="{{pub.doi}}">{{pub.doi}}</a></p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>     
+        
+        <div class="pub__content skills__close">
+            <div class="pub__header">
+                <i class="fa-solid fa-display skills__icon"></i>
+                <div>
+                    <h1 class="skills__title">Presentations</h1>
+                    <span class="skills__subtitle">Posters &amp; Panels</span>
+                </div>
+
+                <i class="fa-solid fa-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+                <div class="pub__data grid">
+                    {% for pres_type in site.data.pres %}                    
+                    {% for pres in  pres_type.presentations %}
+                    <div class="pub__content grid">
+                        <p class="pub__citation"><span>{{pres.authors}}</span>(<span>{{pres.year}})</span>. <span>{{pres.title}}. </span><span style="font-style: italic;">{{pres.event}}</span></p>
+                        <div class="pub__media">
+                            {% if pres.img %} <img src="assets/images/{{pres.img}}">{% endif %}
+                        {% if pres.video %} {{pres.video}} {% endif %}
+                        </div>
+                    </div>
+                    {% endfor %}
+                    {% endfor %}
+                </div>
+            </div>
         </div>
-        <div class="col-xs-3">
-            <p><span class="sm" style="text-transform: uppercase;">{{award.date}}</span></p>
+
+        <div class="pub__content skills__close">
+            <div class="pub__header">
+                <i class="fa-solid fa-trophy skills__icon"></i>
+                <div>
+                    <h1 class="skills__title">Awards</h1>
+                    <span class="skills__subtitle">Honors &amp; Scholarships</span>
+                </div>
+
+                <i class="fa-solid fa-angle-down skills__arrow"></i>
+            </div>
+
+            <div class="skills__list grid">
+                <div class="pub__data">
+                    <div class="awards__container container grid">
+                        {% for award in site.data.awards %}
+                        <div class="awards__content">
+                            <div>
+                                <i class="fa-solid fa-award awards__icon"></i>
+                                <h3 class="awards__title">{{award.title}} ({{award.date}})</h3>
+                                <p class="awards__subtitle">{{award.company}}</p>
+                                <p class="awards__description">{{award.desc}}</p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    
-
-{% endfor %}
-</div>
+</section>

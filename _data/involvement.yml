@@ -1,5 +1,6 @@
 - employer: Black Wings Hacks, Rewriting the Code
-  location: Western University, London, ON
+  department: Western University
+  location: London, ON
   date: Feb 2021
   logo: hackathon-header.jpg
   positions:
@@ -10,18 +11,20 @@
       date: 
 
 - employer: Crafting for a Cure - Western University
-  location: Western University, London, ON
+  department: Western University
+  location: London, ON
   date: Feb 2019 - Apr 2019
   logo: wcfc.png
   positions:
-    - title: Boys & Girls Club Volunteer
+    - title: Boys &amp; Girls Club Volunteer
       desc: |
         <p>Western Crafting for a Cure is a university chapter of the registered charity Crafting for a Cure (CFC). Their mission is to ensure all children have a positive experience whenever a hospital visit is necessary. Western CFC provides in-person volunteering opportunities at hospitals and health organizations within the London community, where their members can craft alongside children in need.</p>
-        <p>As a Volunteer, I visited the Boys & Girls Club of London and lead craft workshops once a week with groups of children aged 4-13 years old.</p>
+        <p>As a Volunteer, I visited the Boys &amp; Girls Club of London and lead craft workshops once a week with groups of children aged 4-13 years old.</p>
       date: 
 
-- employer: Students Supporting University Health Network (SSUHN) - Western University
-  location: Western University, London, ON
+- employer: Students Supporting University Health Network (SSUHN)
+  department: Western University
+  location: London, ON
   date: Aug 2018 - Apr 2019
   logo: ssuhn-logo.png
   positions:
@@ -32,7 +35,8 @@
       date: 
 
 - employer: MedHacks 2018
-  location: John's Hopkins University, Baltimore, MD
+  department: John's Hopkins University
+  location: Baltimore, MD, USA
   date: Apr 2018 - Sept 2018
   logo: logo_dark.png
   positions:
@@ -44,13 +48,14 @@
       date: 
 
 - employer: Scholars Publications House
-  location: Western University, London, ON
+  department: Western University
+  location: London, ON
   date: Oct 2016 - Apr 2018
   logo: rsz_scholarspublicationsbanner.png
   positions:
     - title: Print Editor-in-Chief
       desc: |
-        <p class="more">I was responsible for the print publications of the Scholars Publication House for the 2017-2018 term and worked closely with the Online Editor-in-Chief, other Senior Editors, Artistic Directors and the Scholar’s Programs Coordinator. My roles included:</p>
+        <p>I was responsible for the print publications of the Scholars Publication House for the 2017-2018 term and worked closely with the Online Editor-in-Chief, other Senior Editors, Artistic Directors and the Scholar’s Programs Coordinator. My roles included:</p>
         <ul>
             <li>Directing the Scholars Publications team and producing the publications</li>
             <li>Liaising with managing editors and artistic directors</li>
@@ -62,7 +67,7 @@
       date: APR 2017 - APR 2018
     - title: Artistic Director of Scholars Showcase Magazine
       desc: |
-        <p class="more">I worked closely with the Senior Editors in Chief, artistic contributors and the Managing Director of the Scholars Showcase Magazine to help them get their artistic vision across. My roles included:</p>
+        <p>I worked closely with the Senior Editors in Chief, artistic contributors and the Managing Director of the Scholars Showcase Magazine to help them get their artistic vision across. My roles included:</p>
         <ul>
             <li>Monitoring the quality of images submitted artistic contributors.</li>
             <li>Communicating with artistic contributors on an individual basis as necessary.</li>
@@ -73,7 +78,8 @@
       date: OCT 2016 - APR 2017
 
 - employer: Women in Technology Society
-  location: Western University, London, ON
+  department: Western University
+  location: London, ON
   date: Sept 2017 - Apr 2018
   logo: WiTS_Logo.png
   positions:
@@ -85,7 +91,8 @@
       date: SEPT 2017 - APR 2018
 
 - employer: SheHacks II
-  location: Western University, London, ON
+  department: Western University
+  location: London, ON
   date: Dec 2017 - Mar 2018
   logo: Logo-1.png
   positions:
@@ -100,14 +107,16 @@
         </ul>
         <div style="padding-left: 20px;">
           <h4>Recap video</h4>
-          <div class="resp-container">
-            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwits.uwo%2Fvideos%2F771084993088045%2F&show_text=0&width=560" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true" class="resp-iframe"></iframe>
-          </div>
+          <video width="100%" height="100%" controls style="padding-bottom: 15px;">
+            <source src="assets/videos/shehacks2.mp4" type="video/mp4">
+                Your browser does not support videos of this type.
+            </video>
         </div>
       date: MAR 2018
 
 - employer: HackMIT 2017
-  location: Massachusetts Institute of Technology, Cambridge, MA
+  department: Massachusetts Institute of Technology
+  location: Cambridge, MA, USA
   date: Sept 2017
   logo: hack-twitter-logo.png
   positions:
@@ -117,13 +126,14 @@
       date: 
 
 - employer: Hack Western 3
-  location: Western University, London, ON
+  department: Western University
+  location: London, ON
   date: Oct 2016
   logo: hack.png
   positions:
     - title: Participant
       desc: |
-        <p class="more">Hack Western is Western University's annual student-run hackathon, providing a welcoming atmosphere for students to create and learn about all kinds of incredible technologies. I was one of 500 students participating in 36 hours of coding, learning, creating and innovating. </p>
+        <p>Hack Western is Western University's annual student-run hackathon, providing a welcoming atmosphere for students to create and learn about all kinds of incredible technologies. I was one of 500 students participating in 36 hours of coding, learning, creating and innovating. </p>
         <h3>Project: Seniors in Motion</h3>
         <div style="padding-left: 20px;">
             <ul>
@@ -133,7 +143,7 @@
             </ul>
             <h4>Demonstration</h4>
             <video width="100%" height="100%" controls style="padding-bottom: 15px;">
-            <source src="demo.mp4" type="video/mp4">
+            <source src="assets/videos/demo.mp4" type="video/mp4">
                 Your browser does not support videos of this type.
             </video>
         </div>

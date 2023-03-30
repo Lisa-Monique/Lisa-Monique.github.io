@@ -1,17 +1,14 @@
 {% include header.html %}
 {% include nav.html %}
 
-<div class="header minheader" style="background-image: url(images/{{page.banner}});">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-lg-12">
-                <h1>{{page.title}}</h1>
-            </div>
-        </div>
+<div class="banner" style="background-image: url(assets/images/{{page.banner}});">
+    <div class="container banner__container grid">
+        <h1 class="banner__title">{{page.title}}</h1>
     </div>
 </div>
-<div class="container desc">
-{{content}}
-</div>
 
+<div style="min-height: 40vh;">
+    {{ content }} 
+</div>
+    
 {% include footer.html %}

@@ -1,63 +1,15 @@
 institutions:
-  - name: Independent Coursework
-    location: 
-    logo: 
-    id: independent
-    degrees:
-      - name: "Clinical Terminology for International and U.S. Students"
-        description: |
-          <em>University of Pittsburgh</em> through Coursera
-          <br/>Understanding the clinical terms and abbreviations commonly used during verbal or written communication in U.S. hospitals is challenging. This course is designed for health care profession students and practitioners who want to become more familiar with the language of the U.S. clinical setting and wish to develop a better understanding of terms and abbreviations used by health care providers. Topics: <br/>
-          <ol>
-              <li>Introduction to Clinical Terms and Abbreviations</li>
-              <li>Decoding Complex Medical Terms</li>
-              <li>Advanced Decoding Strategies for Clinical Terms</li>
-              <li>Diseases of the Bodily Systems</li>
-              <li>Laboratory Tests and Diagnostic Procedures</li>
-              <li>Practical Understanding Clinical Abbreviations and Complex Terms in Clinical Situations</li>
-          </ol>
-        date: MAY 2020<br>98.40%
-      - name: "ENGL 211 - Prose Forms"
-        description: |
-          <em>Athabasca University</em>
-          <br/>In ENGL 211 students examine a variety of fictional works in prose. The texts that will be studied in this course include American, British, and Canadian short stories and novels, ranging from the nineteenth to the twenty-first century. By examining these works and the accompanying commentaries in the Study Guide, students will encounter major literary concepts, terms, and analytical strategies. <br/><br/>
-        date: Aug 2020<br>97%
-      - name: "CS50: Introduction to Computer Science"
-        description: |
-          <em>Harvard University</em> through edX
-          <br/>Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Topics: 
-          <ol>
-            <li>Binary. ASCII. Algorithms. Pseudocode. Source code. Compiler. Object code. Scratch. Statements. Boolean expressions. Conditions. Loops. Variables. Functions. Arrays. Threads. Events.</li>
-            <li>Linux. C. Compiling. Libraries. Types. Standard output.</li>
-            <li>Casting. Imprecision. Switches. Scope. Strings. Arrays. Command-line arguments. Cryptography.</li>
-            <li>Debugging. Security. Searching. Sorting. Bubble sort. Selection sort. Insertion sort. O. Ω.</li>
-            <li>Θ. Merge sort. Recursion. Pointers. Dynamic memory allocation.</li>
-            <li>Stack. Heap. Stack overflow. Pre-processing. Compiling. Assembling. Linking.</li>
-            <li>File I/O. Linked lists. Hash tables. Tries.</li>
-            <li>Stacks. Queues. Trees. HTTP.</li>
-            <li>HTML. CSS. PHP. SQL.</li>
-            <li>JavaScript. Ajax.</li>
-          </ol>           
-        date: FEB 2016<br>1.0/1.0
-      - name: "Biology Meets Programming: Bioinformatics for Beginners"
-        description: |
-          <em>University of California, San Diego</em> through Coursera
-          <br/>This undergraduate course introduces students with limited programming experience to some of the key algorithmic ideas in modern computational biology. The course focuses on two questions at the forefront of modern computational biology, along with the algorithmic approaches used to solve them in:<br/>
-          <ol>
-              <li>Where in the Genome Does DNA Replication Begin?</li>
-              <li>Which DNA Patterns Play the Role of Molecular Clocks?</li>
-          </ol>
-        date: MAR 2016<br>87% (Distinction)
   - name: Western University
-    location: London, ON, Canada
-    logo: western-logo.gif
+    location: London, ON
+    date: 2016 - 2019
+    logo: Stacked.png
     id: western
     degrees: 
       - name: (Hons) BMSc Computational Biochemistry
         description: |
-          <p class="more">I graduated from the University of Western Ontario (Western University) where I earned my Bachelor of Medical Sciences degree with an Honours Specialization in Computational Biochemistry. Cumulative average: A</p>
+          <p>I graduated from the University of Western Ontario (Western University) where I earned my Bachelor of Medical Sciences degree with an Honours Specialization in Computational Biochemistry. Cumulative average: A</p>
           <h3>Accomplishments</h3>
-          <ul style="margin-left: 20px;">
+          <ul">
               <li>Presented with Rossiter Award for Research Excellence (highest graded 4th-year Research Project in the Biochemistry Department).</li>
               <li>Completed requirements for four-year program in three years.</li>
               <li>Graduated with distinction (overall A average with no grade below 70% in entire program).</li>
@@ -68,7 +20,7 @@ institutions:
 
           </ul>
           <h3>Activities & Societies</h3>
-          <ul style="margin-left: 20px;">
+          <ul">
               <li>Scholars Publications House - Editor-in-Chief, Artistic Director</li>
               <li>Students Supporting UHN - Founding Executive Member, VP Human Resources</li>
               <li>Western Crafting for a Cure - Boys & Girls Club Volunteer</li>
@@ -81,9 +33,8 @@ institutions:
               <li>Scientific Research Society - Member</li>
               <li>Western Women in Leadership Club - Member</li>
           </ul>
-        date: |
-          SEPT 2016 - Jun 2019 <br/>
-        # <span class="sm imp">IN PROGRESS</span>
+        date: SEPT 2016 - Jun 2019
+        grade: 87% (Distinction)
         courses:
           - group: 2018
             id: western1819
@@ -92,7 +43,7 @@ institutions:
                 code: BIOCHEM4410
                 desc: >
                   The use of fundamental techniques in molecular biology and molecular genetics are illustrated using examples from the classic and current literature. Selected topics include eukaryotic gene cloning, transgenic animals, rational drug design, DNA replication and cell cycle regulation.
-                grade: 83% #ip
+                grade: 83% 
               - title: Applications of Synthetic Biology and Chemical Genetics in Medicine
                 code: BIOCHEM4415
                 desc: >
@@ -251,15 +202,116 @@ institutions:
                 desc: >
                   This course interrogates the limits of human knowledge in the arts, the social sciences, and the sciences and it asks questions about the tools we use to arrive at “meaning.” It poses the question not only of how we know what we know, but also of how we can be sure that we know what we know. What, in other words, does it mean “to know”? Do we control outcomes, or are they due partly or entirely to chance? Does our world actually have meaning or do we just create meanings? How, finally, does the creation of meaning take place?
                 grade: 92%
+  - name: Independent Coursework
+    location: Virtual
+    date: 2015 - Present
+    logo: Udemy-Logo.png
+    id: independent
+    degrees:
+      - name: "The Complete 2023 Web Development Bootcamp"
+        location: App Brewery via Udemy
+        description: |
+          <p>Full stack Web Development Bootcamp taken as a refresher course and to keep up to date on latest frameworks and tools.</p>
+        date: 2022 - Present
+        grade: In progress
+        courses:
+          - group: Topics
+            id: 
+            courses: 
+              - title: Front-End Web Development
+              - title: HTML 5
+              - title: CSS 3
+              - title: Bootstrap 4
+              - title: Javascript ES6
+              - title: DOM Manipulation
+              - title: jQuery
+              - title: Bash Command Line
+              - title: Git, GitHub and Version Control
+              - title: Backend Web Development
+              - title: Node.js
+              - title: NPM
+              - title: Express.js
+              - title: EJS
+              - title: REST
+              - title: APIs
+              - title: Databases
+              - title: SQL
+              - title: MongoDB
+              - title: Mongoose
+              - title: Authentication
+              - title: Firebase
+              - title: React.js
+              - title: React Hooks
+              - title: Web Design
+              - title: Deployment with GitHub Pages, Heroku and MongoDB Atlas
+              - title: Web3 Development on the Internet Computer
+              - title: Blockchain technology
+              - title: Token contract development
+              - title: NFT minting, buying and selling logic
+      - name: "Clinical Terminology for International and U.S. Students"
+        location: University of Pittsburgh through Coursera
+        description: |
+          <p>Understanding the clinical terms and abbreviations commonly used during verbal or written communication in U.S. hospitals is challenging. This course is designed for health care profession students and practitioners who want to become more familiar with the language of the U.S. clinical setting and wish to develop a better understanding of terms and abbreviations used by health care providers.</p>
+        date: MAY 2020
+        grade: 98.40%
+        courses:
+          - group: Topics
+            id:
+            courses:
+              - title: Introduction to Clinical Terms and Abbreviations
+              - title: Decoding Complex Medical Terms
+              - title: Advanced Decoding Strategies for Clinical Terms
+              - title: Diseases of the Bodily Systems
+              - title: Laboratory Tests and Diagnostic Procedures
+              - title: Practical Understanding Clinical Abbreviations and Complex Terms in Clinical Situations
+      - name: "ENGL 211 - Prose Forms"
+        location: Athabasca University
+        description: |
+          <p>In ENGL 211 students examine a variety of fictional works in prose. The texts that will be studied in this course include American, British, and Canadian short stories and novels, ranging from the nineteenth to the twenty-first century. By examining these works and the accompanying commentaries in the Study Guide, students will encounter major literary concepts, terms, and analytical strategies.</p>
+        date: Aug 2020
+        grade: 97%
+      - name: "CS50: Introduction to Computer Science"
+        location: Harvard University through edX
+        description: |
+          <p>Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming.</p>
+        date: FEB 2016
+        grade: 100%
+        courses:
+          - group: Topics
+            id: 
+            courses: 
+              - title: Binary. ASCII. Algorithms. Pseudocode. Source code. Compiler. Object code. Scratch. Statements. Boolean expressions. Conditions. Loops. Variables. Functions. Arrays. Threads. Events.
+              - title: Linux. C. Compiling. Libraries. Types. Standard output.
+              - title: Casting. Imprecision. Switches. Scope. Strings. Arrays. Command-line arguments. Cryptography.
+              - title: Debugging. Security. Searching. Sorting. Bubble sort. Selection sort. Insertion sort. O. Ω.
+              - title: Θ. Merge sort. Recursion. Pointers. Dynamic memory allocation.
+              - title: Stack. Heap. Stack overflow. Pre-processing. Compiling. Assembling. Linking.
+              - title: File I/O. Linked lists. Hash tables. Tries.
+              - title: Stacks. Queues. Trees. HTTP.
+              - title: HTML. CSS. PHP. SQL.
+              - title: JavaScript. Ajax.
+      - name: "Biology Meets Programming: Bioinformatics for Beginners"
+        location: University of California, San Diego through Coursera
+        description: |
+          <p>This undergraduate course introduces students with limited programming experience to some of the key algorithmic ideas in modern computational biology. The course focuses on two questions at the forefront of modern computational biology, along with the algorithmic approaches used to solve them.</p>
+        date: MAR 2016
+        grade: 87% (Distinction)
+        courses: 
+          - group: Topics
+            id: 
+            courses:
+              - title: Where in the Genome Does DNA Replication Begin?
+              - title: Which DNA Patterns Play the Role of Molecular Clocks?
   - name: Sir Arthur Lewis Community College
     location: Morne Fortune, Castries, St. Lucia
-    logo: salcc.png
+    date: 2013 - 2015
+    logo: Salcc_logo.jpg
     id: salcc
     degrees: 
       - name: Caribbean Advanced Proficiency Examinations;Associate of Natural Science
         description: |
           <h3>Accomplishments</h3>
-          <ul style="margin-left: 20px;">
+          <ul">
               <li>Completed Caribbean Advanced Proficiency Examinations with Grade I in Biology and Chemistry, and Grade II in Pure Mathematics.</li>
               <li>Awarded Associate's Degree (Natural Sciences) by Caribbean Examination Council with 3.86 GPA.</li>
               <li>Placed on Dean’s List for Lower Sixth Semester 2</li>
@@ -330,13 +382,14 @@ institutions:
                 grade: Grade II
   - name: St. Joseph's Convent Secondary School
     location: Cedars, Castries, St. Lucia
+    date: 2008 - 2013
     logo: sjc.png
     id: sjc
     degrees: 
       - name: Caribbean Secondary Education Certificate; Secondary School Diploma
         description: |
           <h3>Accomplishments</h3>
-          <ul style="margin-left: 20px;">
+          <ul">
               <li>Completed Caribbean Secondary Education Certificate examinations with Grade I in Mathematics, English A, Biology, Chemistry, Physics, Spanish, Economics, Food & Nutrition and Visual Arts and Grade II in Caribbean History.</li>
               <li>Received two awards for academic excellence, two extra-curricular awards and one award for contribution to SJC Life for dedication and leadership as Captain of SJC Steel Orchestra.</li>
               <li>Remained on Honour List for entirety of matriculation</li>

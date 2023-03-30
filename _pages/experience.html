@@ -5,34 +5,102 @@ permalink: experience.html
 banner: IMG_0711.png
 meta: ""
 ---
-{% for workplace in site.data.experience %}
-<div class="row">
-    <!-- EDIT: work line 1 -->
-    <div class="col-lg-10 col-lg-offset-1">
-        <div class="row">
-            <div class="col-lg-8">
-                <h1>{{workplace.employer}}</h1>
-                <p style="font-style: italic;">{{workplace.location}} — {{workplace.date}}</p>
+<section class="section" id="experience">
+    <div class="experience__container container">
+        <div class="experience__tabs">
+            <div class="experience__button button--flex qualification__active" data-target='#work_exp'>
+                <p>
+                    <i class="fa-solid fa-briefcase experience__icon"></i><br>
+                    Work <br>
+                    Experience
+                </p>
             </div>
-            <div class="col-lg-4"><img class="workimg" src="images/{{workplace.logo}}"></div>
-        </div>
-        {% for position in workplace.positions %}
-        <div class="row">
-            <div class="col-lg-9 workplace">
             
-                <p class="tit-emp">{{position.title}}<br/></p>
-                {{position.desc}}
-            </div>
-            <div class="col-lg-3">
-                <p class="sm">{{position.date}} <br/></p>
+            <div class="experience__button button--flex" data-target="#inv_exp">
+                <p>
+                    <i class="fa-solid fa-handshake-angle experience__icon"></i><br>
+                    Volunteer <br>
+                    Involvement
+                </p>
             </div>
         </div>
-        <br>
-        {% endfor %}            
+        
+        <div class="experience">
+            <!--==================== EXPERIENCE CONTENT 1====================-->
+            <div class="experience__content qualification__active" data-content id="work_exp">
+                            
+                <div class="experience__data">
+                    {% for workplace in site.data.experience %}
+                    <div class="page__container container grid">
+                        <div class="page__content grid">   
+                            <div class="page__blob">
+                                <img class="page__img" src="assets/images/{{workplace.logo}}">
+                            </div>
+                            <div class="page__data">
+                                <h1 class="page__title">{{workplace.employer}}</h1>
+                                <h3 class="page__subtitle">{{workplace.department}}</h3>
+                                <p class="page__description">
+                                    {{workplace.location}} | <small class="page__sub__date">{{workplace.date}}</small>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="page__subcontainer grid">
+                            {% for position in workplace.positions %}
+                            <div class="page__subcontent grid" {% unless forloop.last == true %} style="border-bottom: thin solid #f2f2f2;" {% endunless %}>
+                                <div class="page__sub__data">
+                                    <h3 class="page__sub__title">{{position.title}}</h3>
+                                    <div class="page__sub__description">{{position.desc}}</div>
+                                </div>
+                                <div>
+                                    <small class="page__sub__date">{{position.date}}</small>
+                                </div>
+                            </div>
+                            {% endfor %} 
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div> 
+            </div>
+        </div>
+
+        <div class="experience">
+            <!--==================== EXPERIENCE CONTENT 2====================-->
+            <div class="experience__content" data-content id="inv_exp">
+                            
+                <div class="experience__data">
+                    {% for workplace in site.data.involvement %}
+                    <div class="page__container container grid">
+                        <div class="page__content grid">   
+                            <div class="page__blob">
+                                <img class="page__img" src="assets/images/{{workplace.logo}}">
+                            </div>
+                            <div class="page__data">
+                                <h1 class="page__title">{{workplace.employer}}</h1>
+                                <h3 class="page__subtitle">{{workplace.department}}</h3>
+                                <p class="page__description">
+                                    {{workplace.location}} | <small class="page__sub__date">{{workplace.date}}</small>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="page__subcontainer grid">
+                            {% for position in workplace.positions %}
+                            <div class="page__subcontent grid" {% unless forloop.last == true %} style="border-bottom: thin solid #f2f2f2;" {% endunless %}>
+                                <div class="page__sub__data">
+                                    <h3 class="page__sub__title">{{position.title}}</h3>
+                                    <div class="page__sub__description">{{position.desc}}</div>
+                                </div>
+                                <div>
+                                    <small class="page__sub__date">{{position.date}}</small>
+                                </div>
+                            </div>
+                            {% endfor %} 
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div> 
+            </div>
+        </div>
     </div>
-</div>
-<br>
-{% unless forloop.last == true %}
-<hr>
-{% endunless %}
-{% endfor %}
+</section>
