@@ -47,13 +47,11 @@ meta: ""
 
                         <div class="page__subcontainer grid">
                             {% for position in workplace.positions %}
-                            <div class="page__subcontent grid" {% unless forloop.last == true %} style="border-bottom: thin solid #f2f2f2;" {% endunless %}>
+                            <div class="page__subcontent" {% unless forloop.last == true %} style="border-bottom: thin solid #f2f2f2;" {% endunless %}>
                                 <div class="page__sub__data">
                                     <h3 class="page__sub__title">{{position.title}}</h3>
+                                    <p class="page__sub__date">{{position.date}}</p>
                                     <div class="page__sub__description">{{position.desc}}</div>
-                                </div>
-                                <div>
-                                    <small class="page__sub__date">{{position.date}}</small>
                                 </div>
                             </div>
                             {% endfor %} 
@@ -89,10 +87,8 @@ meta: ""
                             <div class="page__subcontent grid" {% unless forloop.last == true %} style="border-bottom: thin solid #f2f2f2;" {% endunless %}>
                                 <div class="page__sub__data">
                                     <h3 class="page__sub__title">{{position.title}}</h3>
+                                    <p class="page__sub__date">{{position.date}}</p>
                                     <div class="page__sub__description">{{position.desc}}</div>
-                                </div>
-                                <div>
-                                    <small class="page__sub__date">{{position.date}}</small>
                                 </div>
                             </div>
                             {% endfor %} 
